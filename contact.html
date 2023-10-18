@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="auther" content="Samer Saida">
+    <meta name="description" content="website by samer saida">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" href="/images/cat.jpg" type="image/x-icon">
+    <title>Website by Samer Saida - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Website - Contact page</h1>
+        <nav>
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="./#about">About <abbr title="WB">This website</abbr></a></li>
+                <li><a href="./#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="/images/thumbnail-1.webp" alt="thumbnail 1" title="thumbnail 1" width="400">
+            <figcaption>website thumbnail 1 image</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <h3>Contact form</h3>
+        <fieldset>
+            <legend>Contact us</legend>
+            <form action="https://httpbin.org/get" method="get">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="pass">
+                </p>
+                <p>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age">
+                </p>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Our address</legend>
+            <address>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p><a href="mailto:info@web.com">Email </a></p>
+                <p><a href="tel:0555555555">Tel</a></p>
+            </address>
+        </fieldset>
+    </main>
+    <hr>
+    
+    <footer>
+        <p>Copyright &copy; website</p>
+        <p><a href="#">Top</a></p>
+    </footer>
+</body>
+</html>
