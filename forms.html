@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="refresh" content="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/cat.jpg" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms  Dave Gray</h1>
+    <article id="contact">
+        <h2>Contact Form</h2>
+        <p>Send details </p>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal info</legend>
+                <p>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" autocomplete="on" placeholder="First name" required autofocus>
+                </p>
+                <p>
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last name" autocomplete="on">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="on" placeholder="Email">
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                </p>
+                <p>
+                    <label for="phone">Phone</label>
+                    <!-- <input type="tel" name="phone" id="phone" placeholder="555-555-5555" autocomplete="on" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"> -->
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Another info</legend>
+                <p>
+                    <label for="decade">Decade</label>
+                    <input type="number" name="decade" id="decade" min="1900" max="2020" step="10" value="1980">
+                </p>
+                <p>
+                    <label for="coffee">Coffee</label>
+                    <select name="coffee" id="coffee" required>
+                        <optgroup label="Kind 1">
+                            <option selected disabled>Select Coffee</option>
+                            <option value="capputino">Capputino</option>
+                            <option value="hafukh">Hafukh</option>
+                        </optgroup>
+                        <optgroup label="Kind 2">
+                            <option value="regular">Regular Coffee</option>
+                            <option value="lattee">Lattee</option>                        
+                            <option value="amirecano">Americano</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="datalist">Data List</label>
+                    <input type="text" name="coffee" id="coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                        <option selected disabled>Select Coffee</option>
+                            <option value="capputino"></option>
+                            <option value="hafukh"></option>
+                            <option value="regular"></option>
+                            <option value="lattee"></option>                        
+                            <option value="amirecano"></option>
+                    </datalist>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Favorite food</legend>
+                <p>
+                    <input type="radio" name="food" id="Mashawe" value="Mashawe">
+                    <label for="food">Mashawe</label>
+                    <input type="radio" name="food" id="food" value="Rice">
+                    <label for="food">Rice</label>
+                    <input type="radio" name="food" id="food" value="Dates">
+                    <label for="food">Dates</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Pets:</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="pets" value="dog">
+                    <label for="pets">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="pets" value="cat">
+                    <label for="pets">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="pets" value="Snake">
+                    <label for="pets">Snake</label>
+                </p>
+            </fieldset>
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+    </article>
+</body>
+</html>
