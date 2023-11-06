@@ -17,4 +17,18 @@ body{
     color: #fff;
     padding: 8px 20px;
     border: none;
+    font-size: large;
+}
+.amazon{
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+.amazon button{
+    background-color: rgb(255, 216, 20);
+    padding: 8px 24px;
+    border: none;
+    border-radius: 24px;
+    font-size: large;
+    
 }
