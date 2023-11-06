@@ -30,5 +30,17 @@ body{
     border: none;
     border-radius: 24px;
     font-size: large;
-    
+}
+.git{
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+.git button{
+    background-color: rgb(46, 164, 79);
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
 }
