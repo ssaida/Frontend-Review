@@ -44,3 +44,24 @@ body{
     font-weight: bold;
     font-size: 16px;
 }
+.bootstrap{
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+.bootstrap button.get{
+    background-color: rgb(121, 82, 179);
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bootstrap .download{
+    background-color: rgb(108, 117, 125);
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
