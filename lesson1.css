@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.uber{
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+.uber button{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+}
