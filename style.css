@@ -105,6 +105,34 @@ header a:hover{
 #boxes .box img{
     width: 100px;
 }
+.dark{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+}
+/* side-bar */
+aside.side-bar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+article#main-col{
+    float: left;
+    width: 65%;
+    text-align: justify;
+
+}
+ul#services li{
+    padding: 60px;
+}
+form label{
+    display: block;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 4px;
+}
 footer{
     margin-top: 20px;
     color: #fff;
