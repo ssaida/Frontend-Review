@@ -5,30 +5,39 @@
 }
 body{
     background-color: silver;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
+/* global items */
 .container{
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
 header{
     background-color: rgb(43, 43, 61);
     color: #fff;
-    min-height: 40px;
-    padding-top: 4px;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #e8491d 3px solid;
 }
 header .acme-logo{
     float: left;
 }
+
 header nav{
     float: right;
 }
 header nav a{
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
     margin-right:4px ;
 }
 header li{
+    float: left;
     list-style-type: none;
-    display: inline-block;
+    display: inline;
+    padding: 0 10px;
 }
