@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh; 
+    align-content: stretch;
+} 
+.container .child{
+    padding: 20px;
+    margin: 2px;
+    border: 1px solid #000;
+}
+.container .child:nth-child(1){
+    background-color: gray;
+    flex-grow: 1;
+}
+.container .child:nth-child(2){
+    background-color: rgb(182, 22, 22);
+}
+.container .child:nth-child(3){
+    background-color: rgb(29, 27, 27);
+}
