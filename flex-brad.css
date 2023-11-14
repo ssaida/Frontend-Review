@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #a1c3ff;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+header{
+    background-color: #4184f8;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+
+}
+header img{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    border-radius: 24px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 4px;
+}
+main{
+    background-color: #0151cc;
+    color: #fff;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .project h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+main .project p{
+    line-height: 1.4;
+}
+main .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+main .grid .box{
+    border: 5px solid #fff;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+}
+.box:nth-child(1){
+    border-radius: 20px 0 0 0;
+}
+.box:nth-child(3){
+    border-radius: 0 20px 0 0;
+}
+.box:nth-child(7){
+    border-radius: 0 0 0 20px;
+}
+.box:nth-child(9){
+    border-radius: 0 0 20px 0;
+}
+footer .boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-box{
+    flex: 1;
+    background-color: #0a51cc;
+    color: #fff;
+    margin: 20px 10px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.9);
+}
+.footer-box h2{
+    display: inline-block;
+    margin-left: 8px;
+}
+@media(max-width:768px){
+    main{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
