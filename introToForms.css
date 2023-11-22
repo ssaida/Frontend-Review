@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: silver;
+}
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    width: 80%;
+    padding: 10px;
+    color: #fff;
+    margin: 0 auto;
+}
+label{
+    display: block  ;
+}
+input, select{
+    padding: 4px 10px;
+}
+input::placeholder{
+    font-weight: bold;
+}
