@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.uber, .amazon, .github, .bootstrap, .linkedin{
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+}
+.uber button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.amazon button{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 24px;
+}
+.github button{
+    background-color: rgb(46, 164, 79);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.bootstrap .get{
+    background-color: rgb(121, 82, 179);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.bootstrap .download{
+    border: 1px solid rgb(108, 117, 125);
+    padding: 10px 20px;
+    color: rgb(108, 117, 125);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.linkedin .apply{
+    background-color: rgb(10, 102, 194);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.linkedin .save{
+    background-color: #fff;
+    border: 1px solid rgb(10, 102, 194);
+    padding: 10px 20px;
+    color: rgb(10, 102, 194);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+}
