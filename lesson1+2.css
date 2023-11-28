@@ -71,3 +71,33 @@ body{
     font-weight: bold;
     border-radius: 24px;
 }
+.amazon-cart{
+    display: block;
+    width: 400px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+.amazon-cart *{
+    margin-bottom: 8px;
+}
+.amazon-cart a{
+    color: rgb(0, 113, 133);
+}
+.amazon-cart .price{
+    color: rgb(0, 118, 0);
+}
+.amazon-cart .add{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 24px;
+}
+.amazon-cart .buy{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 24px;
+}
