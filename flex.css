@@ -13,10 +13,10 @@ body{
     display: flex; 
     height: 60vh;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 .container > div{
-    flex: 1;
+    /* flex: 1; */
     padding: 10px;
     text-align: center;
     font-size: 2em;
@@ -27,7 +27,7 @@ body{
 }
 .container > div:nth-child(2){
     background-color: #ff6f69;
-    flex: 2;
+    /* flex: 2; */
 }
 .container > div:nth-child(3){
     background-color: #88d8b0 ;
