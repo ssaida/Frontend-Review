@@ -7,3 +7,37 @@ body{
     background-color: silver;
     font-family: sans-serif;
 }
+.container{
+    border: 5px solid  #ffcc5c;
+    display: flex;
+}
+.container > li{
+    /* flex: 1; */
+    background-color: rgb(76, 76, 88);
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+.search{
+    flex: 1;
+}
+@media all and (max-width:600px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .container li{
+        flex: 1 1 50%;
+    }
+    .search input{
+        text-align: center;
+    }
+}
+@media all and (max-width:400px){
+    .container li{
+        flex: 1 1 100%;
+    }
+    .search{
+        order: 1;
+    }
+}
