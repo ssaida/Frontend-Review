@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.a{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+}
+.a .left{
+    width: 200px;
+    background-color: pink;
+    padding: 10px;
+}
+.a .middle{
+    flex: 1;
+    background-color: red;
+}
+.a .right{
+    width: 75px;
+    background-color: rgb(56, 144, 173);
+}
+.c{
+    background-color: #fff;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.c > div{
+    background-color: pink;
+}
+.e{
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+}
+.e .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+.e .row .right button{
+    background-color: blue;
+    color: #fff;
+    padding: 4px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.g{
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    margin-top: 10px;
+}
+.g .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.g .row .left{
+    display: flex;
+    align-items: center;
+}
+.g .row .left img{
+    margin-right: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.g .row .left p{
+    text-align: center;
+    margin-top: 2px;
+    color: gray;
+}
+.g button{
+    background-color: rgb(89, 89, 131);
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.f{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 20px;
+    width: 700px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f .middle{
+    flex: 1;
+    margin: 0 8px;
+}
+.f .middle input{
+    width: 100%;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 20px;
+}
+.f .middle input::placeholder{
+    font-size: 18px;
+    padding-left: 8px;
+}
+.f .right button{
+    background-color: blueviolet;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.nasted-a{
+    background-color: #fff;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+}
+.nasted-a .left{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nasted-a .left p{
+    background-color: #000;
+    color: #fff;
+    padding: 1px 4px;
+}
+.nasted-a .right{
+    background-color: steelblue;
+    width: 200px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nasted-a .right .row2{
+    display: flex;
+    justify-content: space-between;
+}
+.nasted-a .right .row2 *{
+    background-color: #000;
+    color: #fff;
+}
+.nasted-challenge h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.nasted-challenge .row{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.nasted-challenge .row .left img{
+    margin-right: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.nasted-challenge .right .title-and-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
