@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    height: 100vh;
+}
+.modal .green{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100px;
+    background-color: green;
+    color: #fff
+}
+.modal .box-modal{
+    background-color: #fff;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    bottom: 200px;
+    left: 200px;
+    border-radius: 4px;
+    padding: 10px;
+}
