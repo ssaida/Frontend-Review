@@ -6,4 +6,37 @@
 body{
     background-color: silver;
     font-family: sans-serif;
+    height: 100vh;
+}
+header, main, nav, aside, footer{
+    background-color: steelblue;
+    color: #fff;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        'header header header'
+        'nav main side'
+        'nav footer footer'
+    ;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows:70px 1fr 80px ;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+nav{
+    grid-area: nav;
+}
+aside{
+    grid-area: side;
+}
+footer{
+    grid-area: footer;
 }
