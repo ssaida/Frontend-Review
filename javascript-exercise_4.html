@@ -141,15 +141,21 @@ console.log(partialValue + ' ' + 'is' + ' ' + percentage.toFixed(2) + '%' + ' ' 
       </div>
     </section>
 
-    <script src="src/menu.min.js"></script>
+    <script src="src/menu.min.js"></script>   
     <script src="src/util.min.js"></script>
     <script src="src/prism.min.js"></script>
     <script>
       const onSolution = () => {
         /* todo remove this line and start your answer */
-        var partialVAlue = +prompt('Enter Partial Value: ');
-        var totalValue = +prompt('Enter total value:');
-        alert(`${partialVAlue} is ${(partialVAlue / totalValue * 100).toFixed(2)}% of ${totalValue}`);
+        let printValue = +prompt('Enter Print Value:');
+        let totalValue = +prompt('Enter Total Value:');
+        alert(`${printValue} is ${(printValue / totalValue * 100).toFixed(3
+          )} % of ${totalValue}`);
+        let result = 0;
+        for(let i=1;i<=7;i++){
+          result += Math.pow(i, 2);
+        }
+        alert(`Result ${result}`);
       };
     </script>
     <script>
