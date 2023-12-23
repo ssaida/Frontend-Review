@@ -153,14 +153,16 @@ if (firstNum === secNum) {
     <script>
       const onSolution = () => {
         /* todo remove this line and start your answer */
-        var numA = +prompt('Enter num A:');
-        var numB = +prompt('Enter num B:');
-        if(numA > numB)
-          alert('1st number is bigger!');
-        else if(numA === numB)
-          alert('both numbers are equals!');
-        else alert('2nd is bigger!');
-      };
+        let numA = +prompt('Enter num A:');
+        let numB = +prompt('Enter num B:');
+        if(numA === numB){
+          alert('Numbers are equals!');
+        }else if(numA > numB){
+            alert('1st number is bigger');
+          }else{
+            alert('2nd number is bigger');
+          }
+        };
     </script>
     <script>
       addLinksToAllExercise(47, "javascript");
